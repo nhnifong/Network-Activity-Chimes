@@ -1,8 +1,7 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue176;\red77\green77\blue77;\red0\green0\blue176;
-\red14\green38\blue162;\red43\green94\blue0;\red146\green21\blue10;\red0\green0\blue186;\red172\green0\blue0;
-}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue176;\red77\green77\blue77;\red14\green38\blue162;
+\red0\green0\blue186;\red43\green94\blue0;\red146\green21\blue10;\red172\green0\blue0;}
 \deftab560
 \pard\pardeftab560\ql\qnatural
 
@@ -11,7 +10,7 @@
 First, open a terminal, and cd to /Applications/SuperCollider then execute the following command
 \f1\fs18 \
 \
-python readstats.py &\
+nohup python readstats.py &\
 \
 
 \f0\fs24 Next, start the SuperCollider Localhost server, by clicking the boot button on the server window that should have opened when you started SuperCollider 
@@ -24,41 +23,43 @@ and press Enter (on your numpad) or Control-Return if you don't have a numpad.\
 \
 There are more instructions below this code block.\
 \
-\pard\pardeftab560\ql\qnatural
 
-\f1\fs18 \cf0 (\
+\f1\fs18 (\
 	// network activity\
 	\cf2 SynthDef\cf0 (\cf3 "networkSound"\cf0 , \{ \cf2 arg\cf0  inpack = 0, outpack = 0, mul = 0.12;\
-		\cf4 var\cf0  outArray;\
+		\cf2 var\cf0  outArray;\
 		outArray = [\
 				
-\fs20 \cf5 Ringz\cf0 .ar(\cf5 Dust\cf0 .ar(inpack, 0.1), 1600, 2),\
-				\cf5 Ringz\cf0 .ar(\cf5 Dust\cf0 .ar(outpack, 0.1), 2100, 2)\
+\fs20 \cf4 Ringz\cf0 .ar(\cf4 Dust\cf0 .ar(inpack*0.6, 0.1), 1600, 2),\
+				\cf4 Ringz\cf0 .ar(\cf4 Dust\cf0 .ar(outpack*0.6, 0.1), 2100, 2)\
 			];
 \fs18 \
 		Out.ar(0, outArray)\
-	\}, [0.2, 0.2]).load(s);\
+	\}, [0.15, 0.15]).load(s);\
 	\
 	// CPU activity\
 	\cf2 SynthDef\cf0 (\cf3 "cpuSound"\cf0 , \{ \cf2 arg\cf0  cpuuser = 0, cpusys = 0;\
 		\cf2 var\cf0  outArray;\
 		outArray = 
-\fs20 Pan2.ar(\
+\fs20 [\
 			LPF.ar(\
-				LeakDC.ar(\
-					\cf2 Mix\cf0 .arFill(10, \{\
-						\cf2 arg\cf0  i;\
-						\cf2 Saw\cf0 .ar(60 * i, 0.5-(i/20))\
-					\})\
-				),\
-				(cpuuser) * 20 + 50,\
-				0.1\
+				
+\fs18 \cf5 Gendy3\cf0 .ar(1,2,0.3,-0.7,\cf5 75\cf0 ,0.03,0.1)
+\fs20 ,\
+				(cpusys*30)+40,\
+				cpusys / 200\
 			),\
-			0\
-		);
+			LPF.ar(\
+				
+\fs18 \cf5 Gendy3\cf0 .ar(1,2,0.3,-0.7,\cf5 150\cf0 ,0.03,0.1)
+\fs20 ,\
+				(cpuuser*30)+40,\
+				cpuuser / 200\
+			),\
+		];
 \fs18 \
 		Out.ar(0, outArray)\
-	\}, [0.2,0.2]).load(s);\
+	\}, [0.15,0.15]).load(s);\
 	\
 	r = \cf2 Routine\cf0 (\{ \
 		\
@@ -69,12 +70,12 @@ There are more instructions below this code block.\
 			0.1.wait; 				\cf7 // pause for 1 second\
 			\
 			// You may need to change this file path to match the location of readstats.py.\
-	\cf0 		x = \cf8 FileReader\cf0 .read(\cf3 "/Applications/SuperCollider/Network-Activity-Chimes/nets.txt"\cf0 , \cf8 true\cf0 , \cf8 true\cf0 );\
+	\cf0 		x = \cf5 FileReader\cf0 .read(\cf3 "/Applications/SuperCollider/Network-Activity-Chimes/nets.txt"\cf0 , \cf5 true\cf0 , \cf5 true\cf0 );\
 			if ( x.notNil,\
 				\{\
-					x = x.collect(\cf8 _\cf0 .collect(\cf8 _\cf0 .interpret));\
-					//\cf9 x.postcs;\
-					\cf0 ~aSynth.set(\\inpack, x[0][0], \\outpack, x[0][1], \\mul, 0.5);\cf9 \
+					x = x.collect(\cf5 _\cf0 .collect(\cf5 _\cf0 .interpret));\
+					//\cf8 x.postcs;\
+					\cf0 ~aSynth.set(\\inpack, x[0][0], \\outpack, x[0][1], \\mul, 0.5);\cf8 \
 					\cf0 ~bSynth.set(\\cpuuser, x[0][2], \\cpusys, x[0][2], \\mul, 1.0);\
 				\},\
 				\{\}\
@@ -85,9 +86,8 @@ There are more instructions below this code block.\
 \
 )\
 \
-\pard\pardeftab560\ql\qnatural
 
-\f0\fs24 \cf0 To start the auditory feedback, eval the following line by placing your cursor anywhere on it, and pressing Enter (or Control-Return) as you did above.
+\f0\fs24 To start the auditory feedback, eval the following line by placing your cursor anywhere on it, and pressing Enter (or Control-Return) as you did above.
 \f1\fs18 \
 \
 r.reset.play;\
