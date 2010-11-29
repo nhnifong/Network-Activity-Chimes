@@ -1,0 +1,10 @@
+Mac OSX only right now, sorry
+This program requires SuperCollider, and Python.
+
+To run, first execute the following at a command line
+
+    python readstats.py &
+
+This gets the network usage data from netstat, and puts it in a file called nets.txt, 10 times per second.
+
+Then open netsound.rtf in supercollider, and follow the instructions.
