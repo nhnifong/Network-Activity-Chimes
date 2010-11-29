@@ -27,30 +27,55 @@ There are more instructions below this code block.\
 \pard\pardeftab560\ql\qnatural
 
 \f1\fs18 \cf0 (\
-	//network activity\
-	\cf2 SynthDef\cf0 (\cf3 "controlsWithLags"\cf0 , \{ \cf2 arg\cf0  freq1 = 440, freq2 = 443, mul = 0.12;\
+	// network activity\
+	\cf2 SynthDef\cf0 (\cf3 "networkSound"\cf0 , \{ \cf2 arg\cf0  inpack = 0, outpack = 0, mul = 0.12;\
 		\cf4 var\cf0  outArray;\
 		outArray = [\
 				
-\fs20 \cf5 Ringz\cf0 .ar(\cf5 Dust\cf0 .ar(freq1, 0.1), 1600, 2),\
-				\cf5 Ringz\cf0 .ar(\cf5 Dust\cf0 .ar(freq2, 0.1), 2100, 2)\
+\fs20 \cf5 Ringz\cf0 .ar(\cf5 Dust\cf0 .ar(inpack, 0.1), 1600, 2),\
+				\cf5 Ringz\cf0 .ar(\cf5 Dust\cf0 .ar(outpack, 0.1), 2100, 2)\
 			];
 \fs18 \
 		Out.ar(0, outArray)\
-	\}, [0.5, 0.5]).load(s);\
+	\}, [0.2, 0.2]).load(s);\
+	\
+	// CPU activity\
+	\cf2 SynthDef\cf0 (\cf3 "cpuSound"\cf0 , \{ \cf2 arg\cf0  cpuuser = 0, cpusys = 0;\
+		\cf2 var\cf0  outArray;\
+		outArray = 
+\fs20 Pan2.ar(\
+			LPF.ar(\
+				LeakDC.ar(\
+					\cf2 Mix\cf0 .arFill(10, \{\
+						\cf2 arg\cf0  i;\
+						\cf2 Saw\cf0 .ar(60 * i, 0.5-(i/20))\
+					\})\
+				),\
+				(cpuuser) * 20 + 50,\
+				0.1\
+			),\
+			0\
+		);
+\fs18 \
+		Out.ar(0, outArray)\
+	\}, [0.2,0.2]).load(s);\
 	\
 	r = \cf2 Routine\cf0 (\{ \
 		\
-		\cf2 ~aSynth = Synth\cf0 (\cf3 "controlsWithLags"\cf0 , [\cf6 \\freq1\cf0 , 550, \\freq2, 344, \cf6 \\mul\cf0 , 0.1]);\cf3 \
+		\cf2 ~aSynth = Synth\cf0 (\cf3 "networkSound"\cf0 , [\cf6 \\inpack\cf0 , 550, \\outpack, 344, \cf6 \\mul\cf0 , 0.1]);\
+		\cf2 ~bSynth = Synth\cf0 (\cf3 "cpuSound"\cf0 , [\cf6 \\cpuuser\cf0 , 0, \\cpusys, 0]);\cf3 \
 	\cf0 \
 		9999999999.do(\{ \
 			0.1.wait; 				\cf7 // pause for 1 second\
-	\cf0 		x = \cf8 FileReader\cf0 .read(\cf3 "nets.txt"\cf0 , \cf8 true\cf0 , \cf8 true\cf0 );\
+			\
+			// You may need to change this file path to match the location of readstats.py.\
+	\cf0 		x = \cf8 FileReader\cf0 .read(\cf3 "/Applications/SuperCollider/Network-Activity-Chimes/nets.txt"\cf0 , \cf8 true\cf0 , \cf8 true\cf0 );\
 			if ( x.notNil,\
 				\{\
 					x = x.collect(\cf8 _\cf0 .collect(\cf8 _\cf0 .interpret));\
 					//\cf9 x.postcs;\
-					\cf0 ~aSynth.set(\\freq1, x[0][0], \\freq2, x[0][1], \\mul, 0.5);\
+					\cf0 ~aSynth.set(\\inpack, x[0][0], \\outpack, x[0][1], \\mul, 0.5);\cf9 \
+					\cf0 ~bSynth.set(\\cpuuser, x[0][2], \\cpusys, x[0][2], \\mul, 1.0);\
 				\},\
 				\{\}\
 			)\
