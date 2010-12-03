@@ -32,5 +32,7 @@ while(1):
     netsfile.write("%f %f %f %f\n" % (changein, changeout, curuser, cursys))
     netsfile.flush();
 
+    #print "%f %f %f %f\n" % (changein, changeout, curuser, cursys)
+
     time.sleep(0.1)
 
