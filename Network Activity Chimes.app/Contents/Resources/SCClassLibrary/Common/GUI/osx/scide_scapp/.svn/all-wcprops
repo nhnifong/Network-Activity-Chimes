@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10127/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp
+END
+SCFreqScope.sc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCFreqScope.sc
+END
+ScopeView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/ScopeView.sc
+END
+viewExtensionsOSX.sc
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/supercollider/!svn/ver/10127/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/viewExtensionsOSX.sc
+END
+SCStethoscope.sc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCStethoscope.sc
+END
+SCImage.sc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/supercollider/!svn/ver/10127/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCImage.sc
+END
+SCEnvelopeEdit.sc
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCEnvelopeEdit.sc
+END
+SCLevelIndicator.sc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/supercollider/!svn/ver/9967/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCLevelIndicator.sc
+END

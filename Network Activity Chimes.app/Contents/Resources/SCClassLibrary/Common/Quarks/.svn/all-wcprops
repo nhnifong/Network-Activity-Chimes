@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Quarks
+END
+packages.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Quarks/packages.sc
+END
+LocalQuarks.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Quarks/LocalQuarks.sc
+END
+Quark.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Quarks/Quark.sc
+END
+Quarks.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Quarks/Quarks.sc
+END
+QuarkSVNRepository.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Quarks/QuarkSVNRepository.sc
+END

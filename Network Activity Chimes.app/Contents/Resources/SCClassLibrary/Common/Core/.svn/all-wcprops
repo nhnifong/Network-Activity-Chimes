@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/10139/trunk/common/build/SCClassLibrary/Common/Core
+END
+Ref.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Ref.sc
+END
+Char.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Char.sc
+END
+Color.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Color.sc
+END
+Boolean.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Boolean.sc
+END
+Kernel.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9837/trunk/common/build/SCClassLibrary/Common/Core/Kernel.sc
+END
+Nil.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/10057/trunk/common/build/SCClassLibrary/Common/Core/Nil.sc
+END
+Semaphore.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Semaphore.sc
+END
+Message.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Message.sc
+END
+Function.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Function.sc
+END
+Condition.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Condition.sc
+END
+Error.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Error.sc
+END
+Clock.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Clock.sc
+END
+Finalize.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Finalize.sc
+END
+Infinitum.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Infinitum.sc
+END
+Symbol.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Core/Symbol.sc
+END
+Object.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9943/trunk/common/build/SCClassLibrary/Common/Core/Object.sc
+END
+Thread.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9837/trunk/common/build/SCClassLibrary/Common/Core/Thread.sc
+END
+AbstractFunction.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/10139/trunk/common/build/SCClassLibrary/Common/Core/AbstractFunction.sc
+END

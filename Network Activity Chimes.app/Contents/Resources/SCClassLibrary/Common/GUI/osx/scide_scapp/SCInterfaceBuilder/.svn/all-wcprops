@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCInterfaceBuilder
+END
+SCConstructionView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCInterfaceBuilder/SCConstructionView.sc
+END
+SCIBToolboxWindow.sc
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCInterfaceBuilder/SCIBToolboxWindow.sc
+END
+asSCIBCompileString.sc
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/SCInterfaceBuilder/asSCIBCompileString.sc
+END

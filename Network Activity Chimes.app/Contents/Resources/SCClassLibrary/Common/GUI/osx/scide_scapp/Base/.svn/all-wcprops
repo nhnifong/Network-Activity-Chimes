@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/10127/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base
+END
+SCFont.sc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCFont.sc
+END
+SCKnob.sc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/supercollider/!svn/ver/10127/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCKnob.sc
+END
+SCQuartzComposerView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCQuartzComposerView.sc
+END
+SCTextField2.sc
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/supercollider/!svn/ver/9900/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCTextField2.sc
+END
+SCView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/supercollider/!svn/ver/10127/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCView.sc
+END
+GUIScreen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/supercollider/!svn/ver/10007/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/GUIScreen.sc
+END
+SCCocoaView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCCocoaView.sc
+END
+SCViews2.sc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/supercollider/!svn/ver/9900/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCViews2.sc
+END
+SCPen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/supercollider/!svn/ver/10010/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCPen.sc
+END
+SCSoundFileView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/osx/scide_scapp/Base/SCSoundFileView.sc
+END

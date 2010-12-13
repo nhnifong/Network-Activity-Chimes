@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/10119/trunk/common/build/SCClassLibrary/Common/GUI/guicrucial
+END
+ObjectGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/10048/trunk/common/build/SCClassLibrary/Common/GUI/guicrucial/ObjectGui.sc
+END
+StringGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/10048/trunk/common/build/SCClassLibrary/Common/GUI/guicrucial/StringGui.sc
+END
+gui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/10119/trunk/common/build/SCClassLibrary/Common/GUI/guicrucial/gui.sc
+END

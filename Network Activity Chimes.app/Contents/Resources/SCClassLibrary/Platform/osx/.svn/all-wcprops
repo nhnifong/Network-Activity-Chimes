@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/10001/trunk/common/build/SCClassLibrary/Platform/osx
+END
+extMIDIOut.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/osx/extMIDIOut.sc
+END
+OSXPlatform.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9903/trunk/common/build/SCClassLibrary/Platform/osx/OSXPlatform.sc
+END
+extDocument.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/osx/extDocument.sc
+END
+ApplicationStart.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/osx/ApplicationStart.sc
+END
+extMain.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/osx/extMain.sc
+END
+MXHID.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/osx/MXHID.sc
+END
+extClassBrowser.sc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/osx/extClassBrowser.sc
+END

@@ -66,8 +66,8 @@ There are more instructions below this code block.\
 		\cf2 ~aSynth = Synth\cf0 (\cf3 "networkSound"\cf0 , [\cf6 \\inpack\cf0 , 550, \\outpack, 344, \cf6 \\mul\cf0 , 0.1]);\
 		\cf2 ~bSynth = Synth\cf0 (\cf3 "cpuSound"\cf0 , [\cf6 \\cpuuser\cf0 , 0, \\cpusys, 0]);\cf3 \
 	\cf0 \
-		9999999999.do(\{ \
-			0.1.wait; 				\cf7 // pause for 1 second\
+		9999999999.do(\{  // about 3.17 years\
+			0.1.wait; 				\cf7 // pause for .1 second\
 			\
 			// You may need to change this file path to match the location of readstats.py.\
 	\cf0 		x = \cf5 FileReader\cf0 .read(\cf3 "/Applications/SuperCollider/Network-Activity-Chimes/nets.txt"\cf0 , \cf5 true\cf0 , \cf5 true\cf0 );\
@@ -75,8 +75,8 @@ There are more instructions below this code block.\
 				\{\
 					x = x.collect(\cf5 _\cf0 .collect(\cf5 _\cf0 .interpret));\
 					//\cf8 x.postcs;\
-					\cf0 ~aSynth.set(\\inpack, x[0][0], \\outpack, x[0][1], \\mul, 0.5);\cf8 \
-					\cf0 ~bSynth.set(\\cpuuser, x[0][2], \\cpusys, x[0][2], \\mul, 1.0);\
+					\cf0 ~aSynth.set(\\inpack, x[0][0], \\outpack, x[0][1]);\cf8 \
+					\cf0 ~bSynth.set(\\cpuuser, x[0][2], \\cpusys, x[0][2]);\
 				\},\
 				\{\}\
 			)\

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/10160/trunk/common/build/SCClassLibrary/JITLib/GUI
+END
+JITGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/10160/trunk/common/build/SCClassLibrary/JITLib/GUI/JITGui.sc
+END
+extJITgui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/10078/trunk/common/build/SCClassLibrary/JITLib/GUI/extJITgui.sc
+END
+MonitorGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/10099/trunk/common/build/SCClassLibrary/JITLib/GUI/MonitorGui.sc
+END
+NodeProxyEditor.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/10082/trunk/common/build/SCClassLibrary/JITLib/GUI/NodeProxyEditor.sc
+END
+ProxyMonitorGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/10074/trunk/common/build/SCClassLibrary/JITLib/GUI/ProxyMonitorGui.sc
+END
+NdefGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/10133/trunk/common/build/SCClassLibrary/JITLib/GUI/NdefGui.sc
+END
+NdefParamGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10091/trunk/common/build/SCClassLibrary/JITLib/GUI/NdefParamGui.sc
+END
+ProxyMixerOld.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/10082/trunk/common/build/SCClassLibrary/JITLib/GUI/ProxyMixerOld.sc
+END
+ProxyMixer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/10095/trunk/common/build/SCClassLibrary/JITLib/GUI/ProxyMixer.sc
+END
+EnvirGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/10131/trunk/common/build/SCClassLibrary/JITLib/GUI/EnvirGui.sc
+END
+extSoftSet.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/10099/trunk/common/build/SCClassLibrary/JITLib/GUI/extSoftSet.sc
+END
+TaskProxyGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10160/trunk/common/build/SCClassLibrary/JITLib/GUI/TaskProxyGui.sc
+END

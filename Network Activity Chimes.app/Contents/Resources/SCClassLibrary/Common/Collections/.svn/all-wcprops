@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/10196/trunk/common/build/SCClassLibrary/Common/Collections
+END
+List.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10151/trunk/common/build/SCClassLibrary/Common/Collections/List.sc
+END
+Association.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Association.sc
+END
+ObjectTable.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/ObjectTable.sc
+END
+Array.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9843/trunk/common/build/SCClassLibrary/Common/Collections/Array.sc
+END
+Event.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/10140/trunk/common/build/SCClassLibrary/Common/Collections/Event.sc
+END
+Harmonics.sc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Harmonics.sc
+END
+Interval.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Interval.sc
+END
+PriorityQueue.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/PriorityQueue.sc
+END
+EnvironmentRedirect.sc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/supercollider/!svn/ver/10069/trunk/common/build/SCClassLibrary/Common/Collections/EnvironmentRedirect.sc
+END
+Scale.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Scale.sc
+END
+Bag.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/10151/trunk/common/build/SCClassLibrary/Common/Collections/Bag.sc
+END
+RingBuffer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/RingBuffer.sc
+END
+Collection.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/10196/trunk/common/build/SCClassLibrary/Common/Collections/Collection.sc
+END
+Pair.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Pair.sc
+END
+Set.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/10151/trunk/common/build/SCClassLibrary/Common/Collections/Set.sc
+END
+SparseArray.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/SparseArray.sc
+END
+SortedList.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/SortedList.sc
+END
+LinkedList.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/LinkedList.sc
+END
+ArrayedCollection.sc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/supercollider/!svn/ver/10196/trunk/common/build/SCClassLibrary/Common/Collections/ArrayedCollection.sc
+END
+Library.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Library.sc
+END
+Environment.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Environment.sc
+END
+Array2D.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/Array2D.sc
+END
+Dictionary.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9943/trunk/common/build/SCClassLibrary/Common/Collections/Dictionary.sc
+END
+String.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/String.sc
+END
+SequenceableCollection.sc
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/supercollider/!svn/ver/10196/trunk/common/build/SCClassLibrary/Common/Collections/SequenceableCollection.sc
+END
+EventTypesWithCleanup.sc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Collections/EventTypesWithCleanup.sc
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/10187/trunk/common/build/SCClassLibrary/JITLib/ProxySpace
+END
+ProxySpace.sc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/supercollider/!svn/ver/9925/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/ProxySpace.sc
+END
+operators.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/operators.sc
+END
+InBus.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10028/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/InBus.sc
+END
+BusPlug.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/10050/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/BusPlug.sc
+END
+NodeMapSetting.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/9977/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/NodeMapSetting.sc
+END
+NodeMap.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9977/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/NodeMap.sc
+END
+ProxyInterfaces.sc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/10186/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/ProxyInterfaces.sc
+END
+ProxySynthDef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/ProxySynthDef.sc
+END
+NodeProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/supercollider/!svn/ver/10187/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/NodeProxy.sc
+END
+wrapForNodeProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/supercollider/!svn/ver/10093/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/wrapForNodeProxy.sc
+END
+TempoBusClock.sc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/TempoBusClock.sc
+END
+extStoreOn.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/10028/trunk/common/build/SCClassLibrary/JITLib/ProxySpace/extStoreOn.sc
+END

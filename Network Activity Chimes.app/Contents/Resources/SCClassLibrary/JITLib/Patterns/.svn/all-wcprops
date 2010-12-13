@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/10210/trunk/common/build/SCClassLibrary/JITLib/Patterns
+END
+Pdef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/10210/trunk/common/build/SCClassLibrary/JITLib/Patterns/Pdef.sc
+END
+Fdef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/Patterns/Fdef.sc
+END
+OpFunctionProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/Patterns/OpFunctionProxy.sc
+END
+extFunction.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/Patterns/extFunction.sc
+END
+extRoutine.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/Patterns/extRoutine.sc
+END
+Pxfade.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/Patterns/Pxfade.sc
+END
+Psym.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/JITLib/Patterns/Psym.sc
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/10125/trunk/common/build/SCClassLibrary/Common/GUI/Base
+END
+Gradient.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/Base/Gradient.sc
+END
+EZSlider.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/10125/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZSlider.sc
+END
+EZRangerSC.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/10125/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZRangerSC.sc
+END
+EZText.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/10064/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZText.sc
+END
+EZgui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9949/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZgui.sc
+END
+EZScroller.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/10098/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZScroller.sc
+END
+EZListView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZListView.sc
+END
+EZNumber.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/10125/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZNumber.sc
+END
+EZPopUpMenu.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZPopUpMenu.sc
+END
+EZKnob.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/10125/trunk/common/build/SCClassLibrary/Common/GUI/Base/EZKnob.sc
+END

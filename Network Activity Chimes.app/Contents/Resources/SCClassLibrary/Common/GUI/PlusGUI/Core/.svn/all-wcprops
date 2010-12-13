@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/10148/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core
+END
+NilPlusGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core/NilPlusGUI.sc
+END
+ObjectPlusGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core/ObjectPlusGUI.sc
+END
+HelperPlus.sc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core/HelperPlus.sc
+END
+HistoryGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/supercollider/!svn/ver/10070/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core/HistoryGui.sc
+END
+ClassBrowser.sc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/supercollider/!svn/ver/10148/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core/ClassBrowser.sc
+END
+KernelPlusGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/GUI/PlusGUI/Core/KernelPlusGUI.sc
+END

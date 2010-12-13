@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/10176/trunk/common/build/SCClassLibrary/Common/Streams
+END
+TimePatterns.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/TimePatterns.sc
+END
+BasicOpsStream.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/BasicOpsStream.sc
+END
+PgeneralHid.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/PgeneralHid.sc
+END
+Pproto.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Pproto.sc
+END
+IOStream.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/IOStream.sc
+END
+PatternCategories.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/10118/trunk/common/build/SCClassLibrary/Common/Streams/PatternCategories.sc
+END
+RandomDistPatterns.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/RandomDistPatterns.sc
+END
+PmonoStreams.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/PmonoStreams.sc
+END
+Quant.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/Quant.sc
+END
+TabFileReader.sc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/TabFileReader.sc
+END
+Stream.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Stream.sc
+END
+ListPatterns.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/ListPatterns.sc
+END
+Pfx.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Pfx.sc
+END
+PatternConductor.sc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/PatternConductor.sc
+END
+Pspawner.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10176/trunk/common/build/SCClassLibrary/Common/Streams/Pspawner.sc
+END
+Plambda.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Plambda.sc
+END
+Patterns.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/10128/trunk/common/build/SCClassLibrary/Common/Streams/Patterns.sc
+END
+Pseed.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/Pseed.sc
+END
+FuncStreamAsRoutine.sc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/FuncStreamAsRoutine.sc
+END
+ControlPatterns.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/ControlPatterns.sc
+END
+Prewrite.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/Prewrite.sc
+END
+History.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/10070/trunk/common/build/SCClassLibrary/Common/Streams/History.sc
+END
+Ppar.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Ppar.sc
+END
+Ppatmod.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Ppatmod.sc
+END
+EventStreamCleanup.sc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/10175/trunk/common/build/SCClassLibrary/Common/Streams/EventStreamCleanup.sc
+END
+FilterPatterns.sc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/FilterPatterns.sc
+END
+Penv.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/Penv.sc
+END
+extEnv.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9921/trunk/common/build/SCClassLibrary/Common/Streams/extEnv.sc
+END
+NodeEvents.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Common/Streams/NodeEvents.sc
+END

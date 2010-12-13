@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows
+END
+extMIDIOut.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows/extMIDIOut.sc
+END
+WindowsPlatform.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows/WindowsPlatform.sc
+END
+extServerOptions.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows/extServerOptions.sc
+END
+extMain.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows/extMain.sc
+END
+extString.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows/extString.sc
+END
+PsycolliderDocument.sc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/supercollider/!svn/ver/9821/trunk/common/build/SCClassLibrary/Platform/windows/PsycolliderDocument.sc
+END
