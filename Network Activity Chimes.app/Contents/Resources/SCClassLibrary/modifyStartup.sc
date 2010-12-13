@@ -11,7 +11,7 @@
 	startup {
 		Document.implementationClass.startup;
 		// make a server window for the internal if you like
-		Server.internal.makeWindow;
+		//Server.internal.makeWindow;
 //		Server.local.makeWindow;
 		// uncomment if you use a startup file
 //		this.loadStartupFiles;
@@ -29,6 +29,8 @@
 
 		GUI.fromID( this.platform.defaultGUIScheme );
 		GeneralHID.fromID( this.platform.defaultHIDScheme );
+		
+		("python "++String.scDir.dirname++"/readstats.py").unixCmd;
 
 		// Set Server.default and the 's' interpreter variable to the internal server.
 		// You should use the internal server for standalone applications --
@@ -66,7 +68,7 @@
 				Out.ar(0, outArray)
 			}, [0.15, 0.15]).load(Server.default);
 			
-			SynthDef("cpuSound", { arg cpuuser = 0, cpusys = 0, mul = 0.1;
+			SynthDef("cpuSound", { arg cpuuser = 0, cpusys = 0, mul = 0.4;
 				var outArray;
 				outArray = [
 					LPF.ar(
@@ -83,8 +85,8 @@
 				Out.ar(0, outArray)
 			}, [0.15,0.15]).load(Server.default);
 			
-			~aSynth = Synth("networkSound", [\inpack, 30, \outpack, 30, \mul, 0.1]);
-			~bSynth = Synth("cpuSound", [\cpuuser, 40, \cpusys, 20]);
+			~aSynth = Synth("networkSound", [\inpack, 30, \outpack, 30, \mul, 0.12]);
+			~bSynth = Synth("cpuSound", [\cpuuser, 40, \cpusys, 20, \mul, 0.4]);
 			
 			~w = Window("Volume controls for Network Activity Chimes", Rect(100, 500, 400, 140));
 			
@@ -92,14 +94,14 @@
 			~t.string = "Network Chimes Volume";
 			
 			~a = Slider (~w, Rect(40, 25, 300, 30));
-			~a.value = 0.1;
+			~a.value = 0.12;
 			~a.action={ |sl| ~aSynth.set(\mul, sl.value) }; // set the action of the slider
 			
 			~u = StaticText (~w, Rect(40, 60, 300, 30));
 			~u.string = "CPU Buzz Volume";
 			
 			~b = Slider (~w, Rect(40, 85, 300, 30));
-			~b.value = 0.1;
+			~b.value = 0.4;
 			~b.action={ |sl| ~bSynth.set(\mul, sl.value) }; // set the action of the slider
 			
 			

@@ -1,10 +1,7 @@
 Mac OSX only right now, sorry
-This program requires SuperCollider, and Python.
+This program requires SuperCollider, Python, and top.
 
-To run, first execute the following at a command line
+The supercollider code is in Network Activity Chimes.app/Resources/SCClassLibrary/modifyStartup.sc
+It starts a python script that reads the network activity and cup usage from top, and writes it to nets.txt 10 times per second.
 
-    python readstats.py &
-
-This gets the network usage data from netstat, and puts it in a file called nets.txt, 10 times per second.
-
-Then open netsound.rtf in supercollider, and follow the instructions.
+supercollider then reads this file to determine the parameters that control the synth
