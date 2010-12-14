@@ -1,5 +1,4 @@
 + OSXPlatform {
-
 	startupFiles {
 //		var filename = "startup.rtf";
 //		^[this.systemAppSupportDir +/+ filename, this.userAppSupportDir +/+ filename];
@@ -30,7 +29,7 @@
 		GUI.fromID( this.platform.defaultGUIScheme );
 		GeneralHID.fromID( this.platform.defaultHIDScheme );
 		
-		("python "++String.scDir.dirname++"/readstats.py").unixCmd;
+		//("python "++String.scDir.dirname++"/readstats.py &").unixCmd;
 
 		// Set Server.default and the 's' interpreter variable to the internal server.
 		// You should use the internal server for standalone applications --
@@ -111,7 +110,7 @@
 					0.1.wait; 				// pause for .1 second
 					
 					// You may need to change this file path to match the location of readstats.py.
-					~x = FileReader.read("/Applications/SuperCollider/Network-Activity-Chimes/nets.txt", true, true);
+					~x = FileReader.read(String.scDir.dirname++"/nets.txt", true, true);
 					if ( ~x.notNil,
 						{
 							~x = ~x.collect(_.collect(_.interpret));
@@ -129,12 +128,13 @@
 			
 			CmdPeriod.doOnce({~w.close});
 
+			~netstats = "python Network\ Activity\ Chimes.app/Contents/getstats.py".unixCmdGetStdOut;
+			~netstats.postln;
 			
-			String.scDir.dirname.postln;
 		});
-		// close post window if user should not have it
 		
-		Document.listener.close;
+		// close post window if user should not have it
+		//Document.listener.close;
 	}
 
 }

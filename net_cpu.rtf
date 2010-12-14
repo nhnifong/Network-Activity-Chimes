@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue191;\red96\green96\blue96;\red0\green115\blue0;
+\red191\green0\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs18 \cf0 \
+(\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 Server\cf0 .default.waitForBoot(\{\
+	\
+	\cf2 SynthDef\cf0 (\cf3 "networkSound"\cf0 , \{ \cf2 arg\cf0  inpack = 0, outpack = 0, mul = 0.12;\
+		\cf2 var\cf0  outArray;\
+		outArray = [\
+				\cf2 Ringz\cf0 .ar(\cf2 Dust\cf0 .ar(inpack*0.6, mul), 1600, 2),\
+				\cf2 Ringz\cf0 .ar(\cf2 Dust\cf0 .ar(outpack*0.6, mul), 2100, 2)\
+			];\
+		\cf2 Out\cf0 .ar(0, outArray)\
+	\}, [0.15, 0.15]).load(\cf2 Server\cf0 .default);\
+	\
+	\cf2 SynthDef\cf0 (\cf3 "cpuSound"\cf0 , \{ \cf2 arg\cf0  cpuuser = 0, cpusys = 0, mul = 0.4;\
+		\cf2 var\cf0  outArray;\
+		outArray = [\
+			\cf2 LPF\cf0 .ar(\
+				\cf2 Gendy3\cf0 .ar(1,2,0.3,-0.7,75,0.03,0.1),\
+				(cpusys*30)+40,\
+				(cpusys / 200 )* mul\
+			),\
+			\cf2 LPF\cf0 .ar(\
+				\cf2 Gendy3\cf0 .ar(1,2,0.3,-0.7,150,0.03,0.1),\
+				(cpuuser*30)+40,\
+				(cpuuser / 200 )* mul\
+			),\
+		];\
+		\cf2 Out\cf0 .ar(0, outArray)\
+	\}, [0.15,0.15]).load(\cf2 Server\cf0 .default);\
+	\
+	~aSynth = \cf2 Synth\cf0 (\cf3 "networkSound"\cf0 , [\cf4 \\inpack\cf0 , 30, \cf4 \\outpack\cf0 , 30, \cf4 \\mul\cf0 , 0.12]);\
+	~bSynth = \cf2 Synth\cf0 (\cf3 "cpuSound"\cf0 , [\cf4 \\cpuuser\cf0 , 40, \cf4 \\cpusys\cf0 , 20, \cf4 \\mul\cf0 , 0.4]);\
+	\
+	w = \cf2 Window\cf0 (\cf3 "Volume controls for Network Activity Chimes"\cf0 , \cf2 Rect\cf0 (100, 500, 400, 140));\
+	\
+	t = \cf2 StaticText\cf0  (w, \cf2 Rect\cf0 (40, 0, 300, 30));\
+	t.string = \cf3 "Network Chimes Volume"\cf0 ;\
+	\
+	a = \cf2 Slider\cf0  (w, \cf2 Rect\cf0 (40, 25, 300, 30));\
+	a.value = 0.12;\
+	a.action=\{ \cf2 |sl|\cf0  ~aSynth.set(\cf4 \\mul\cf0 , sl.value) \}; \cf5 // set the action of the slider\cf0 \
+	\
+	u = \cf2 StaticText\cf0  (w, \cf2 Rect\cf0 (40, 60, 300, 30));\
+	u.string = \cf3 "CPU Buzz Volume"\cf0 ;\
+	\
+	b = \cf2 Slider\cf0  (w, \cf2 Rect\cf0 (40, 85, 300, 30));\
+	b.value = 0.4;\
+	b.action=\{ \cf2 |sl|\cf0  ~bSynth.set(\cf4 \\mul\cf0 , sl.value) \}; \cf5 // set the action of the slider\
+	\
+	\cf0 ~netres = \cf3 "/usr/sbin/netstat -I en1"\cf0 .unixCmdGetStdOut.findRegexp(\cf3 "([^\\\\s]+)\\\\s+"\cf0 );\
+	~oldinpack = ~netres.at(27).at(1).asFloat;\
+     ~oldoutpack = ~netres.at(31).at(1).asFloat;\
+	\
+	\
+	r = \cf2 Routine\cf0 (\{\
+	\
+		9999999999.do(\{  \cf5 // about 3.17 years\cf0 \
+			0.1.wait; 				\cf5 // pause for .1 second\cf0 \
+			\
+			~netres = \cf3 "/usr/sbin/netstat -I en1"\cf0 .unixCmdGetStdOut.findRegexp(\cf3 "([^\\\\s]+)\\\\s+"\cf0 );\
+			~inpack = ~netres.at(27).at(1).asFloat;\
+			~outpack = ~netres.at(31).at(1).asFloat;\
+			~changeinpack = ~inpack-~oldinpack;\
+			~changeoutpack = ~outpack-~oldoutpack;\
+			~oldoutpack = ~outpack;\
+			~oldinpack = ~inpack;\
+			\
+			~cpures = \cf3 "top -l 1 -n 0 -s 0"\cf0 .unixCmdGetStdOut.split($\\n).at(3).findRegexp(\cf3 "[\\\\d]+\\\\.[\\\\d]+"\cf0 );\
+			~usercpu = ~cpures.at(0).at(1).asFloat;\
+			~systcpu = ~cpures.at(1).at(1).asFloat;\
+			\
+			~aSynth.set(\cf4 \\inpack\cf0 , ~changeinpack, \cf4 \\outpack\cf0 , ~changeoutpack);\
+			~bSynth.set(\cf4 \\cpuuser\cf0 , ~usercpu, \cf4 \\cpusys\cf0 , ~systcpu);\
+		\})\
+		\
+	\}).reset.play;\
+\
+	w.front;\
+	\
+	\cf2 CmdPeriod\cf0 .doOnce(\{~w.close\});\
+	\
+\});\
+\
+\
+)}
